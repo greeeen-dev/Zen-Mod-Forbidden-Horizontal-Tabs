@@ -156,3 +156,7 @@ hbox.titlebar-buttonbox-container {
 	position: static !important;
 	/* This fixes the nav buttons for macOS but it needs to be tested for Windows and Linux */
 }
+
+toolbarbutton#back-button {
+	padding-inline-start: var(--toolbar-start-end-padding) !important;
+}
